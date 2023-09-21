@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Artist_Website_Template_React%20/static/css/main.488ea932.css",
+    "main.js": "/Artist_Website_Template_React%20/static/js/main.5ac75007.js",
+    "static/media/about.jpg": "/Artist_Website_Template_React%20/static/media/about.9711c6dcb7d6d72ba1e4.jpg",
+    "index.html": "/Artist_Website_Template_React%20/index.html",
+    "main.488ea932.css.map": "/Artist_Website_Template_React%20/static/css/main.488ea932.css.map",
+    "main.5ac75007.js.map": "/Artist_Website_Template_React%20/static/js/main.5ac75007.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.488ea932.css",
+    "static/js/main.5ac75007.js"
+  ]
+}

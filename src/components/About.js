@@ -49,11 +49,13 @@ export default function About() {
           <p className="mt-6 text-lg leading-8 text-gray-300 mr-24">{desc}</p>
         </div>
         <div className="rounded-full overflow-hidden w-64 h-64 ml-6">
-          <img
-            src={profilePic}
-            alt="Artist"
-            className="w-full h-full object-cover"
-          />
+          {profilePic && (
+            <img
+              src={profilePic}
+              alt="Artist"
+              className="w-full h-full object-cover"
+            />
+          )}
         </div>
       </div>
     </div>

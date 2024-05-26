@@ -11,15 +11,15 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Update to v3
+        uses: actions/checkout@v3  # Ensure this is the latest version
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # Update to v3
+        uses: actions/setup-node@v3  # Ensure this is the latest version
         with:
           node-version: '20'  # Use Node.js 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci  # Use `npm ci` for a cleaner install in CI environments
 
       - name: Build project
         run: npm run build

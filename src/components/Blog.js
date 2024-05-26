@@ -32,11 +32,13 @@ export default function Blog() {
                     {post.title}
                   </a>
                 </h3>
-                <img
-                  src={post.path}
-                  alt=""
-                  className="h-64 w-full mt-2 mb-1 bg-gray-50"
-                />
+                {post.path && (
+                  <img
+                    src={post.path}
+                    alt=""
+                    className="h-64 w-full mt-2 mb-1 bg-gray-50"
+                  />
+                )}
               </div>
             </article>
           ))}
